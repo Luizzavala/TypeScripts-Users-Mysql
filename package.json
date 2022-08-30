@@ -1,12 +1,24 @@
 {
   "name": "typescripts-users-mysql",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && nodemon dist/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luizzavala/TypeScripts-Users-Mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Luizzavala/TypeScripts-Users-Mysql/issues"
+  },
+  "homepage": "https://github.com/Luizzavala/TypeScripts-Users-Mysql#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
